@@ -20,10 +20,8 @@ public class Main {
         int[] randomNumbersList = new int[100];
 
         for (int i=0; i<randomNumbersList.length; i++){
-
             randomNumbersList[i] = random.nextInt(100);
-            System.out.println("i: " + randomNumbersList[i]);
-        }
+         }
 
         return randomNumbersList;
     }
